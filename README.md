@@ -1,0 +1,1 @@
+This software simulates a brushless DC motor and I wrote this software in C# programming language. This software is a robust tool for simulation of brushless DC motor yet it can be said that development of this software is still in progress because I have planned for some more features which I might integrate into it whenever my schedule allows. 
