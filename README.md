@@ -87,9 +87,21 @@ So I'll write enhanced version of this software when I'll get enough time but I 
 ### Thermal Model
   * Estimates inverter temperature based on power losses.
   * Calculates temperature using a simplified model: $T = T_amb + P * R_th$, with thermal capacitance for inertia.
+  * Includes natural cooling toward ambient temperature (25°C).
+  * Ensures temperature remains above ambient.
+  * Supports derating and shutdown logic.
+### Simulation Engine
+  * Integrates all components, updating the system state at each time step.
+  * Executes simulation in 100 µs sub-steps (100 sub-steps per 10 ms) for numerical stability.
+  * Handles exceptions by stopping the motor and reporting errors.
+  * Sets load torque (0–0.1 Nm) and speed reference (0–3000 RPM).
+  * Centralized system integration.
+  
+---
 
-
-
+| ![](https://github.com/KMORaza/Brushless_DC_Motor_Simulation_App/blob/main/Brushless%20DC%20Motor%20Simulation%20App/BrushlessDCMotorSimulation/screenshots/screen%20(1).png) | ![](https://github.com/KMORaza/Brushless_DC_Motor_Simulation_App/blob/main/Brushless%20DC%20Motor%20Simulation%20App/BrushlessDCMotorSimulation/screenshots/screen%20(2).png) |
+|------|------|
+| ![](https://github.com/KMORaza/Brushless_DC_Motor_Simulation_App/blob/main/Brushless%20DC%20Motor%20Simulation%20App/BrushlessDCMotorSimulation/screenshots/screen%20(3).png) | ![](https://github.com/KMORaza/Brushless_DC_Motor_Simulation_App/blob/main/Brushless%20DC%20Motor%20Simulation%20App/BrushlessDCMotorSimulation/screenshots/screen%20(4).png) |
 
 
 
