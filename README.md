@@ -5,3 +5,19 @@ So I'll write enhanced version of this software when I'll get enough time but I 
 
 ---
 
+## Brushless DC Motor Simulation Software
+
+* Brushless DC Motor model :—
+  * Computes phase currents based on applied voltages, back-EMF, phase resistance, and inductance (adjusted for magnetic saturation).
+  * Supports fault conditions like phase loss (zero current in a phase) or short circuits (low resistance between phases).
+  * Calculates back-EMF for each phase, using trapezoidal or sinusoidal waveforms depending on the motor type.
+  * Transforms phase currents to d-q frame for Field-Oriented Control (FOC) using Park and Clarke transforms.
+  * Models rotor motion using a second-order system (moment of inertia, friction, and torques).
+  * Calculates electromagnetic torque (based on currents and torque constant), cogging torque (due to slot effects), ripple torque (harmonic effects), and friction torque.
+  * Updates rotor angle and speed using a 4th-order Runge-Kutta method for numerical integration.
+  * Provides speed in RPM and commutation sector for 6-step control.
+  * Configurable motor type (trapezoidal or sinusoidal).
+  * Fault injection for phase loss or short circuits.
+  * Inductance variation due to magnetic saturation.
+  * Realistic torque components (cogging, ripple) for accurate dynamics.
+* Inverter model 
