@@ -86,7 +86,7 @@ So I'll write enhanced version of this software when I'll get enough time but I 
   * Provides derating factor (0–1) based on temperature.  
 ### Thermal Model
   * Estimates inverter temperature based on power losses.
-  * Calculates temperature using a simplified model: $T = T_amb + P * R_th$, with thermal capacitance for inertia.
+  * Calculates temperature using a simplified model with thermal capacitance for inertia.
   * Includes natural cooling toward ambient temperature (25°C).
   * Ensures temperature remains above ambient.
   * Supports derating and shutdown logic.
