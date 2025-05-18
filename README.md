@@ -1,7 +1,7 @@
 _**(April 16 2025)**_ This software simulates a brushless DC motor and I wrote this software in C# programming language. This software is a robust tool for simulation of brushless DC motor yet it can be said that development of this software is still in progress because I have in mind some more features which I might integrate into it whenever my schedule allows. 
 So I'll write enhanced version of this software when I'll get enough time but I ain't sure about when I'll get sufficient time. 
 
-_**(April 18 2025)**_ Because I wanted to improve this software, I have incorporated some more improvements. I have written the [enhanced version](https://github.com/KMORaza/Brushless_DC_Motor_Simulation_App/tree/main/Brushless%20DC%20Motor%20Simulation%20App/BrushlessDCMotorSimulation) of this software. In future, if I will furhter enhance the software, I will update this repository or I'll create a new one for updated software.
+_**(April 18 2025)**_ Because I wanted to improve this software, I have incorporated some more improvements. I have written the [enhanced version](https://github.com/KMORaza/Brushless_DC_Motor_Simulation_App/tree/main/Brushless%20DC%20Motor%20Simulation%20App/BrushlessDCMotorSimulation) of this software. In future, if I will further enhance the software, I will update this repository or I'll create a new one for updated software.
 
 ---
 
